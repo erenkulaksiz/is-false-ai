@@ -2,7 +2,8 @@
   "name": "is-false-ai",
   "version": "1.0.0",
   "description": "determine if given value is false using AI",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
