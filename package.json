@@ -1,0 +1,21 @@
+{
+  "name": "is-false-ai",
+  "version": "1.0.0",
+  "description": "determine if given value is false using AI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc -w"
+  },
+  "author": "Eren Kulaksiz <erenkulaksz@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "is-true-ai": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  }
+}
